@@ -3,7 +3,7 @@ let url = 'https://github.com/login/oauth/authorize';
 
 let options = {
   client_id:'4b7c598e9b0f32553ad7',
-  redirect_uri:'http://localhost:3000/api/v1/auth/oauth',
+  redirect_uri:'https://authenticated-api-server.herokuapp.com/api/v1/auth/oauth',
   scope: 'read:user',
 };
 
